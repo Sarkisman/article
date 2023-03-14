@@ -1,0 +1,35 @@
+.main {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.inputs {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.title {
+  box-sizing: border-box;
+  min-width: 70vw;
+  max-width: 70vw;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  margin: 2vw 0;
+  box-sizing: border-box;
+  min-width: 70vw;
+  max-width: 70vw;
+  min-height: 50vh;
+  max-height: 50vw;
+  line-height: 1.5;
+  padding: 2em 2em 3em;
+  border-radius: 1rem;
+  border: 1px solid #f7e98d;
+  font: 13px Tahoma, cursive;
+  transition: box-shadow 1.5s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: -webkit-linear-gradient( #f7e98d,#b889c3);
+}

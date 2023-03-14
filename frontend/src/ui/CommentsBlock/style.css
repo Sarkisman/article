@@ -1,0 +1,9 @@
+.comments {
+  width: auto;
+}
+.comment {
+  margin: 0 0 10px 0;
+  border-bottom: 2px solid salmon;
+  width: 100%;
+  margin-bottom: 50px;
+}

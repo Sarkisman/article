@@ -1,0 +1,25 @@
+.main {
+  margin: 2rem 2rem;
+}
+
+.ection {
+  padding-top: 2em;
+}
+
+.article {
+  border: 1px solid brown;
+  border-radius: 1em;
+  margin: 2em;
+  padding: 1rem;
+}
+
+.title1 {
+  font: 2em sans-serif;
+  font-size: large;
+  box-sizing: border-box;
+  padding-bottom: 1em;
+}
+
+.end {
+  text-align: end;
+}
