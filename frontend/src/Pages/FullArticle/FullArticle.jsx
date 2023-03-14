@@ -14,17 +14,11 @@ export default function FullArticle() {
   const user = useSelector((store) => store?.user)
   const currentArticle = useSelector((store) => store?.currentArticle)
   const currentComments = useSelector((store) => store?.comments)
-  // const isLoading = useSelector((store) => store?.loading)
-  // console.log(isLoading, 'Загрузка')
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(getOneArticleAction(id))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-  // useEffect(() => {
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  //   console.log(!isLoading)
-  // }, [isLoading])
   const showComments = () => {
     setIsShowComments(!isShowComments)
     dispatch(getAllCommentsAction(id))
@@ -46,7 +40,6 @@ export default function FullArticle() {
   }
 
   const isLoading = useSelector((store) => store?.loading)
-  // console.log(isLoading, 'Загрузка')
   return (
     <div className="main">
       <div className="article">
